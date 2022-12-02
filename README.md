@@ -4,14 +4,16 @@
 ## Docker Image gcc-arm-cmake
 
 This Docker image was create FROM ubuntu:22.04 and has the following packages:
-- git version 2.34.1;
-- Arm GNU Toolchain 11.3.Rel1;
-- CMake version 3.24.2;
-- Python 3.10.6;
-- build-essential;
-- wget;
-- curl.
 
+- git version 2.34.1
+- Arm GNU Toolchain 11.3.Rel1
+- CMake version 3.24.2
+- Python 3.10.6
+- GCORV 5.0
+- LCOV 1.14
+- build-essential
+- wget
+- curl
 
 1. Pull the latest docker image version
 ```console
